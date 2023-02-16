@@ -14,7 +14,7 @@
 | Date        |             Session theme                   |    Notes / links   |  
 | ----------- |               -----------                   |    -----------     |  
 | 2/10/2023   |      Intro: define goals and aims           |                    |
-| 2/24/2023   | Contin. goals and aims ; Meeting values     |  [Full.Presentation_psychological_safety_AJAdams](https://github.com/SamGurr/RClub_practice/assets/PsychSafetyNOAA.pdf) [Questionnaire: Inclusion & Learner safety](https://github.com/SamGurr/RClub_practice/assets/psych_safety_questionnaire_1.JPG) |  [Questionnaire: Contributor & Challenger safety](https://github.com/SamGurr/RClub_practice/assets/psych_safety_questionnaire_1.JPG)   |
+| 2/24/2023   | Contin. goals and aims ; Meeting values     |  [Full.Presentation_psychological_safety_AJAdams](https://github.com/SamGurr/RClub_practice/assets/PsychSafetyNOAA.pdf) [Questionnaire: Inclusion & Learner safety](https://github.com/SamGurr/RClub_practice/assets/psych_safety_questionnaire_1.JPG) |  [Questionnaire: Contributor & Challenger safety](https://github.com/SamGurr/RClub_practice/assets/psych_safety_questionnaire_2.JPG)   |
 | 2/24/2023   |                <add here>                   |      <add here>    |
 | 3/03/2023   |                <add here>                   |      <add here>    |
 | 3/10/2023   |                <add here>                   |      <add here>    |
