@@ -1,10 +1,11 @@
 
-**Weekly notes**
+### Weekly notes
+
 [Google doc 'RClub notes'](https://docs.google.com/document/d/1GUsOQuJMXRzpZvLr3HEpvebn89N68-yiJ6DLGUqgCDw/edit#heading=h.h0u7p7xqrbkk)
 
-**Overview**
+### Overview
 
-* about values: en emphasis of these meeting on an informal and inclusive envroinment to effectively learn, question, and challenge without the  
+* about values: en emphasis of these meeting on an informal and inclusive environment to effectively learn, question, and challenge without the  
 
 * session theme: 
 
@@ -14,8 +15,7 @@
 | Date        |             Session theme                   |    Notes / links   |  
 | ----------- |               -----------                   |    -----------     |  
 | 2/10/2023   |      Intro: define goals and aims           |                    |
-| 2/24/2023   | Contin. goals and aims ; Meeting values     |  [Full.Presentation_psychological_safety_AJAdams](https://github.com/SamGurr/RClub_practice/assets/PsychSafetyNOAA.pdf) [Questionnaire: Inclusion & Learner safety](https://github.com/SamGurr/RClub_practice/assets/psych_safety_questionnaire_1.JPG) |  [Questionnaire: Contributor & Challenger safety](https://github.com/SamGurr/RClub_practice/assets/psych_safety_questionnaire_2.JPG)   |
-| 2/24/2023   |                <add here>                   |      <add here>    |
+| 2/24/2023   | Intro: continued goals and aims ; Values overview |  [Full_presentation_AJAdams](https://github.com/SamGurr/RClub_practice/assets/PsychSafetyNOAA.pdf) [Questionnaire: Inclusion & Learner safety](https://github.com/SamGurr/RClub_practice/assets/psych_safety_questionnaire_1.JPG)  [Questionnaire: Contributor & Challenger safety](https://github.com/SamGurr/RClub_practice/assets/psych_safety_questionnaire_2.JPG)   |
 | 3/03/2023   |                <add here>                   |      <add here>    |
 | 3/10/2023   |                <add here>                   |      <add here>    |
 | 3/17/2023   |                <add here>                   |      <add here>    |
