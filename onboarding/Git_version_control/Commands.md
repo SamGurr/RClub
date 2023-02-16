@@ -1,7 +1,7 @@
 
 ## Basic linux commands 
 
-**navigating your directeries** 
+### Navigating your directeries
 
 
 * show current working directory 
@@ -40,7 +40,7 @@ mkdir dir (dir is the directory name)
 ```
 
 
-**assess and edit file contents**
+### Examine and edit file contents 
 
 * start, read, and edit a file
 
@@ -71,7 +71,7 @@ cat filename | head -10
 cat filename | tail -10 
 ```
 
-**move file contents**
+### Move files around
 
 * copy the file 
 ```
@@ -99,7 +99,7 @@ rm -r dir
 
 ## Starting a new repository using git
 
-**comands we will use:** 
+
 
 ```
 git 
