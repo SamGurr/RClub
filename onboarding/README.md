@@ -9,18 +9,15 @@
 
 **Git_version_control**
 
-Important links:
+Getting started:
 
-* download git [here](https://git-scm.com/downloads)
+* Private google doc for using Git [here](https://docs.google.com/document/d/1Iu-uK47t-OVASTGw_JWIdDdQaOexMLQLrr7UmxIac0c/edit)
 
-* why use git? (*a great introduction*) [here](https://learn.microsoft.com/en-us/training/modules/intro-to-git/0-introduction)
+* Download git [here](https://git-scm.com/downloads)
 
-* version control tutorial [here](https://datacarpentry.org/rr-version-control/01-git-github/index.html)
+Why care?
 
-* collaborating using git:
-  
-  - getting started [here](https://swcarpentry.github.io/git-novice/08-collab/index.html)
-  
-  - managing conflicts [here](https://swcarpentry.github.io/git-novice/09-conflict/index.html)
+* Benefits of version control (*a great introduction*) [here](https://learn.microsoft.com/en-us/training/modules/intro-to-git/0-introduction)
+
 
 **R_studio** 
