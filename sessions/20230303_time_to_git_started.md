@@ -26,7 +26,7 @@ the following workship uses commands for a git workflow that can be translated t
 	- use a handful of main git commands to clone, edit, and add to the collaborative 'RClub' repository 
 	
 # Let's do this! 
-*out of 'git' puns *...for now!*
+out of 'git' puns *...for now!*
 ----
 
 Below are steps supplemented with color-coded <span style="color:red">linux</span> and <span style="color:green">git</span> commands 
