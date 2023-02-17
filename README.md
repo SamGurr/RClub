@@ -1,15 +1,11 @@
-## RClub repository 
+## RClub repository
 
 #### objective
 
-* to fortify skills in version control and data management 
+* familiarize ourselves with R studio and a suite packages ranging from data carpentry, statistics, visualization etc.
 
-* learn the benefits of open source repositories for our personnal and collaborative projects
+* work with mock data together and complete shared goals
 
-* work in an informal environment (this repository) to explore: 
+* troubleshoot as a team
 
-	- how to initiate, fork, share, and clone repositires from commmand line and online 
-
-	- manage conflicts, view and accept/merge edits from collaborators to a master repo
-
-	- rectify data errors/emergency situations, revert to previous commit(s)
+* fortify skills in version control and data management using a collaborative repository
