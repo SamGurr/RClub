@@ -10,6 +10,10 @@
 
 ### Subolders 
 
+**R_studio** 
+
+add here
+
 **Git_version_control**
 
 * Private google doc, guidlines for using Git [here](https://docs.google.com/document/d/1Iu-uK47t-OVASTGw_JWIdDdQaOexMLQLrr7UmxIac0c/edit)
@@ -20,6 +24,3 @@ Why use git?
 
 * Benefits of version control (*a great introduction*) [here](https://learn.microsoft.com/en-us/training/modules/intro-to-git/0-introduction)
 
-**R_studio** 
-
-<add here>
