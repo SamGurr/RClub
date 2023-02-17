@@ -1,5 +1,7 @@
 # Time to 'git' started!
 
+----
+
 ### before we 'git' going..
 
 * start a git account 
@@ -26,6 +28,8 @@ the following workship uses commands for a git workflow that can be translated t
 	- use a handful of main git commands to clone, edit, and add to the collaborative 'RClub' repository 
 	
 ## Let's do this! 
+
+----
 
 Below are steps supplemented with color-coded <span style="color:red">linux</span> and <span style="color:green">git</span> commands 
 
@@ -62,13 +66,14 @@ In the following steps, we will learn about forks and branches. These are essent
 to better manage large and productive teams!
 
 ### The mysterious of Branches and Forks
+----
 
 Again you might say, "'git' outta 'ere with this jargon!", but I'll breifly touch on these useful tools.
 As mentioned above, you were made a collaborator on 'RClub' repository with full contribution and collaboration rights - 
 you can smell the potential for trouble here (whaa HA HA!) 
 
 
-Definitions: 
+#### Definitions: 
 
 **fork** - a duplicated and **independent** version of from the original repository **up to the time it was forked**. A forked repository contains all the contents including the branches, 
 however all edits to a forked respository have no effect on the original. 
@@ -82,9 +87,9 @@ however all edits to a forked respository have no effect on the original.
 **branch** - think **under construction** or **work in progress**, the branch is akin to a manuscript with track changes on where the parent/origin is a separate document that is managing changes. 
 In other words, the branch mimics the parent/origin but its purpose is to prevent direct integration of change to the master repository without a stamp of approval from the manager(s)
 
-	- useful for collaborative workflow in large teams when edits are created on a particular feature with the intent to manage what is integrated to the parent/origin - occasionally a brnach can be named for that task such as 'timeline data' or 'stats'
+- useful for collaborative workflow in large teams when edits are created on a particular feature with the intent to manage what is integrated to the parent/origin - occasionally a brnach can be named for that task such as 'timeline data' or 'stats'
 
-	- alternative definition as a tree's fingers of which a tree's *forks* would be much more appropriate in our modern age (review alt def of fork)
+- alternative definition as a tree's fingers of which a tree's *forks* would be much more appropriate in our modern age (review alt def of fork)
 
 We have a <span style="color:green">branch</span> for teamwork 
 
@@ -92,7 +97,7 @@ This was created using the following git commands from the main branch:
 
 * a 'teamwork' branch (<span style="color:green">-b</span>) was created in for the Rclub repository by using the command <span style="color:green">git checkout -b</span> 
 
-	- a shortened <span style="color:green">git co -b</span> ..if the 6 extra characters is just too much for ya
+- a shortened <span style="color:green">git co -b</span> ..if the 6 extra characters is just too much for ya
 
 ```
 git checkout -b teamwork
