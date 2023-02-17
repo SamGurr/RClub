@@ -2,7 +2,7 @@
 
 ----
 
-### before we 'git' going..
+## before we 'git' going..
 
 * start a git account 
 	
@@ -17,9 +17,7 @@
 *NOTE: git appears same as raw shell lfor using linux commands whereas the github UI is an application-like interface
 the following workship uses commands for a git workflow that can be translated to the UI if prefered  
 
-### objective:
-
-#### out of 'git' puns *...for now!*
+## objective:
 
 * initiate team-based version control using our collaborative 'RClub' resository!
 
@@ -27,8 +25,8 @@ the following workship uses commands for a git workflow that can be translated t
 
 	- use a handful of main git commands to clone, edit, and add to the collaborative 'RClub' repository 
 	
-## Let's do this! 
-
+# Let's do this! 
+*out of 'git' puns *...for now!*
 ----
 
 Below are steps supplemented with color-coded <span style="color:red">linux</span> and <span style="color:green">git</span> commands 
@@ -65,7 +63,7 @@ These issues worsen as teams grow and become more productive. Seems counter-intu
 In the following steps, we will learn about forks and branches. These are essential aspects of collaborative workflows using git
 to better manage large and productive teams!
 
-### The mysterious of Branches and Forks
+# The mysterious of Branches and Forks
 ----
 
 Again you might say, "'git' outta 'ere with this jargon!", but I'll breifly touch on these useful tools.
