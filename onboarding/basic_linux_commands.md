@@ -1,10 +1,10 @@
 
-## Basic linux commands 
+## Basic linux commands
 
 ### Navigating your directeries
 
 
-* show current working directory 
+* show current working directory
 ```
 pwd
 ```
@@ -14,7 +14,7 @@ pwd
 cd
 ```
 
-* nativigate forward 
+* nativigate forward
 ```
 cd dir (where dir = directory name with '/' dividing each subseqent folder)
 ```
@@ -34,23 +34,23 @@ cd ../
 ls
 ```
 
-* make a directory 
+* make a directory
 ```
 mkdir dir (dir is the directory name)
 ```
 
 
-### Examine and edit file contents 
+### Examine and edit file contents
 
 * start, read, and edit a file
 
 *note: nano is a default UI from commmand line to read and write, though limited in its ease of use*
 *you will be promted upon exiting nano to save your file contents, if approved the filename will now exist in your directory*
 ```
-nano filename 
+nano filename
 ```
 
-* read the file 
+* read the file
 
 *note: opens the whole file on command line*
 ```
@@ -61,19 +61,19 @@ cat filename
 
 *here we are using a pipe '|' to call in the next command 'head -10' to read only the first 10 lines, you can change the number of lines as you see fit*
 ```
-cat filename | head -10 
+cat filename | head -10
 ```
 
 * read the end of a file
 
 *same as obve but using 'tail' to call lines from the end of a file
 ```
-cat filename | tail -10 
+cat filename | tail -10
 ```
 
 ### Move files around
 
-* copy the file 
+* copy the file
 ```
 cp dir/filename newdir
 ```
@@ -93,22 +93,4 @@ rm filename
 *note: -r means recursive, all contents within the dir are called for deletion*
 ```
 rm -r dir
-```
-
-
-
-## Starting a new repository using git
-
-
-
-```
-git 
-```
-
-
-```
-git init
-```
-
-
 ```
