@@ -1,3 +1,5 @@
+Click on the link [here](https://samgurr.github.io/protocols/2023/02/18/Time-to-git-started.html) for the markdown in html format!
+
 # Time to 'git'!
 
 ----
@@ -202,7 +204,7 @@ git branch
  use <span style="color:green">git branch branchname</span> to switch
 
 ```
-git branch teamwork
+git checkout teamwork
 ```
 
 * you will now see that you change branches - you can change back using the same command naming the other existing branches
