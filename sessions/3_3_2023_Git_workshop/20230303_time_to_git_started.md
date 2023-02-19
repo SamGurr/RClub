@@ -305,7 +305,7 @@ Before getting started, navigate to the teamwork branch (if not there already)
 git switch teamwork
 ```
 
-```
+
 
 (1) View whole file in command line
 
