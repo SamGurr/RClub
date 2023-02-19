@@ -173,18 +173,24 @@ however all edits to a forked respository have no effect on the original.
 **branch** - think **under construction** or **work in progress**, the branch is akin to a manuscript with track changes on where the parent/origin is a separate document that is managing changes.
 In other words, the branch mimics the parent/origin but its purpose is to prevent direct integration of change to the master repository without a stamp of approval from the manager(s)
 
-- useful for collaborative workflow in large teams when edits are created on a particular feature with the intent to manage what is integrated to the parent/origin - occasionally a brnach can be named for that task such as 'timeline data' or 'stats'
+- version control with local versus remote repositories
+
+- useful for collaborative workflow in large teams when edits are created on a particular feature with the intent to manage what is integrated to the parent/origin - occasionally a branch can be named for a particular task - the start of a branch can also occur at a particular version or prior commit to the repository
 
 	- alternative definition: a tree's fingers of which a tree's *forks* would be much more appropriate in our modern age (review alt def of fork)
 
-We have a <span style="color:green">branch</span> for teamwork
+We have a <span style="color:green">branch</span> remote branch 'teamwork' that was first established locally before pushed as a remote branch. This branch is up-to-data with the main branch and you will receive it when you clone the repository
 
-This was created using the following git commands from the main branch:
-
-* a 'teamwork' branch (<span style="color:green">-b</span>) was created in for the Rclub repository by using the command <span style="color:green">git checkout -b</span>
+* a 'teamwork' branch (<span style="color:green">-b</span>) was created in for the Rclub repository by using the commands below - each shown with descriptions in []
 
 ```
-git checkout -b teamwork (do NOT run this - a teamwork branch was already made for us)
+(do NOT run these - a remote branch was already established for our use)
+
+git branch teamwork [create local branch]
+git branch [view your local branches]
+git switch teamwork [switch branch to new branch]
+git push -u origin teamwork [pushes the new local branch as a remote branch, -u facilitates tracking]
+git branch -v [view commits/changes ahead and behind the remote branch, we can use this call because of the -u tracking when first establishing teamwork as remote branch]
 ```
 
 (1) Knowing we have a branch for 'teamwork' and a 'main' branch - lets look at these
@@ -201,17 +207,14 @@ git branch
 
 (2) Navigate to the teamwork branch
 
- use <span style="color:green">git branch branchname</span> to switch
+ use <span style="color:green">git switch branchname</span> to switch
 
 ```
-git checkout teamwork
+git switch teamwork
 ```
-
-* you will now see that you change branches - you can change back using the same command naming the other existing branches
 
 # Version control for leading RClub sessions
 ----
-
 
 ### objective:
 
@@ -239,7 +242,6 @@ git checkout teamwork
 
 ### View files from command line
 
-
 * start, read, and edit a file
 
 **there are a few text editors you can use, each have their limitations**
@@ -251,7 +253,6 @@ git checkout teamwork
 ```
 nano README.md
 ```
-
 
 **<span style="color:red">vim</span>** : another stock text shell, even more cumbersome than nano.
 
@@ -297,6 +298,8 @@ note
 
 
 #### How read and open text files from command line to save edits
+
+Before getting started, navigate to the teamwork branch
 
 (1) View whole file in command line
 
