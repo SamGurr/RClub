@@ -7,14 +7,15 @@
 
 * session theme: topic of interest that week ~20-30 minutes of discussion
 
-* breakout: any questions or knowledge to share - an open freeform style as small groups or whole team to troubleshoot, discuss, and learn 
+* breakout: any questions or knowledge to share - an open freeform style as small groups or whole team to troubleshoot, discuss, and learn
 
 
 | Date        |             Session theme                   |    Notes / links   |  
 | ----------- |               -----------                   |    -----------     |  
 | 2/10/2023   |      Intro: define goals and aims           |                    |
 | 2/17/2023   | Intro: continued goals and aims ; values overview |  [Full_presentation_AJAdams](https://github.com/SamGurr/RClub_practice/blob/main/onboarding/assets/PsychSafetyNOAA.pdf.pdf) [Questionnaire: Inclusion & Learner safety](https://github.com/SamGurr/RClub_practice/blob/main/onboarding/assets/psych_safety_questionnaire_1.jpg)  [Questionnaire: Contributor & Challenger safety](https://github.com/SamGurr/RClub_practice/blob/main/onboarding/assets/psych_safety_questionnaire_2.jpg)   |
-| 3/03/2023   |                <add here>                   |      <add here>    |
+| 2/24/2023   |                <add here>                   |      <add here>    |
+| 3/03/2023   |       Let's git' it started (workshop)      |   [20230303_time_to_git_started.md](https://github.com/SamGurr/RClub/blob/main/sessions/3_3_2023_Git_workshop/20230303_time_to_git_started.md)    |
 | 3/10/2023   |                <add here>                   |      <add here>    |
 | 3/17/2023   |                <add here>                   |      <add here>    |
 | 3/24/2023   |                <add here>                   |      <add here>    |
@@ -58,5 +59,3 @@
 | 12/15/2023  |                <add here>                   |      <add here>    |
 | 12/22/2023  |                <add here>                   |      <add here>    |
 | 12/29/2023  |                <add here>                   |      <add here>    |
-
-
