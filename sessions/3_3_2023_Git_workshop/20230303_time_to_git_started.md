@@ -147,7 +147,7 @@ These issues worsen as teams grow and become more productive. Seems counter-intu
 In the following steps, we will learn about forks and branches. These are essential aspects of collaborative workflows using git
 to better manage large and productive teams!
 
-# Cracking to code of Branches and Forks
+# Cracking the code of Branches and Forks
 ----
 
 ### objective:
@@ -198,7 +198,7 @@ git branch -v [view commits/changes ahead and behind the remote branch, we can u
  use <span style="color:green">git branch</span> to see what branch you are in
 
 ```
-git branch
+git branch -r
 ```
 
 * *the output will list all existing branches with your highlighted/bold.
@@ -212,6 +212,8 @@ git branch
 ```
 git switch teamwork
 ```
+
+* you can now navigate back and forth as you please!
 
 # Version control for leading RClub sessions
 ----
@@ -250,9 +252,15 @@ git switch teamwork
 
 * navigate to the RClub repository and open README.md to see for yourself!
 
+* Note: if you are in the directory of a file you can use SHIFT after starting the string of a filename and it will print the remaining (as long as it is unique to the directory!)
+
+	- try typing 'nano RE' and press SHIFT, this should print the file name README.md
+
 ```
 nano README.md
 ```
+
+* SHIFT+X to exit
 
 **<span style="color:red">vim</span>** : another stock text shell, even more cumbersome than nano.
 
@@ -261,6 +269,10 @@ nano README.md
 ```
 vim README.md
 ```
+
+* press ESC to open the command mode. press :q! and ENTER to quit
+
+	- vim is quite strange, a more user-friendly text editor would be ideal
 
 **lets call a better user interface to work in shall we!**
 
@@ -290,7 +302,7 @@ alias note='C:/Windows/System32/notepad.exe'
 
 * close git and reopen to integrate this changes
 
-* type note to open notepad.exercise
+* type note to open notepad
 
 ```
 note
@@ -372,18 +384,18 @@ note yourname_file.txt
 
 * *option 1*: if you opened using <span style="color:red">nano</span>
 
-			**Cntl+X** to Exit - this will prompt whether to save
+	**Cntl+X** to Exit - this will prompt whether to save
 
-			**Y** to save
+	**Y** to save
 
-			**enter** to exit back to commnd line
+	**enter** to exit back to commnd line
 
 
 * *option 2*: if you opened using <span style="color:red">note</span>
 
-		**Cntl+S** to save
+	**Cntl+S** to save
 
-		simply exit the page
+	simply exit the page
 
 
 * use commands you know to see if you successfully made the file and view it in command line!
@@ -491,7 +503,7 @@ git merge teamwork
 
 	- git status
 
-	- git commit -m <your message>
+	- git commit -m "your message"
 
 	- git push origin main
 
