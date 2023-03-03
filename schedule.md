@@ -16,7 +16,7 @@
 | 2/17/2023   | Intro: continued goals and aims ; values overview |  [Full_presentation_AJAdams](https://github.com/SamGurr/RClub_practice/blob/main/onboarding/assets/PsychSafetyNOAA.pdf.pdf) [Questionnaire: Inclusion & Learner safety](https://github.com/SamGurr/RClub_practice/blob/main/onboarding/assets/psych_safety_questionnaire_1.jpg)  [Questionnaire: Contributor & Challenger safety](https://github.com/SamGurr/RClub_practice/blob/main/onboarding/assets/psych_safety_questionnaire_2.jpg)   |
 | 2/24/2023   |                <add here>                   |      <add here>    |
 | 3/03/2023   |       Let's git' it started (workshop)      |   [20230303_time_to_git_started.md](https://github.com/SamGurr/RClub/blob/main/sessions/3_3_2023_Git_workshop/20230303_time_to_git_started.md)    |
-| 3/10/2023   | Let's plot some data w/ R and Quarto/Markdown and practice using git |   [20230303_time_to_git_started.md](https://github.com/SamGurr/RClub/blob/main/sessions/3_3_2023_Git_workshop/20230303_time_to_git_started.md)    |
+| 3/10/2023   | Let's plot some data w/ R and Quarto/Markdown and practice using git |   [20230303_time_to_git_started.md](https://github.com/SamGurr/RClub/blob/main/sessions/3_3_2023_Git_workshop/20230303_time_to_git_started.md) [Quarto_tutorial](https://quarto.org/docs/tools/rstudio.html)    |
 | 3/17/2023   |                <add here>                   |      <add here>    |
 | 3/24/2023   |                <add here>                   |      <add here>    |
 | 3/31/2023   |                <add here>                   |      <add here>    |
