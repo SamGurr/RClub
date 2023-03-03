@@ -489,6 +489,14 @@ git push origin teamwork
 git switch main
 ```
 
+* Important! remember you want to view the differences between these branches to decide whether to merge
+
+```
+git branch -v
+```
+
+* prints the head commit for each branch
+
 * merge your current HEAD branch (main) with the changes in teamwork
 
 ```
