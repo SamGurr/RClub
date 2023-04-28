@@ -1,0 +1,30 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+setwd("C:/Users/samjg/Documents/Github_repositories/RClub_NOAArepo/sessions/sonde_data") #set working
+
+library(dplyr)
+library(lubridate)
+library(ggplot2)
+?lubridate
+df <- read.csv("Exo_Harbor_Data_9-29-2020.csv", head = TRUE , skip = 1) 
+df # we have a couple empty rows here at the start of the file
+num_rows <- nrow(df) # 
+df_skiprows <- df[3:num_rows,]
+```
+
+```{r}
+
+# df_skiprows$Date <- gsub(' .*', '', df_skiprows$TIMESTAMP)
+# df_skiprows$Time <- gsub('.* ', '', df_skiprows$TIMESTAMP)
+
+df_skiprows$Date <- mdy_hm(df_skiprows$TIMESTAMP)
+str(df_skiprows)
+
+ggplot(aes(Date,as.numeric(Exo_TempC)) ,data =df_skiprows) + 
+  geom_point()
+```
