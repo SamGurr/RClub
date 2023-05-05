@@ -9,11 +9,28 @@ setwd("C:/Users/samjg/Documents/Github_repositories/RClub_NOAArepo/sessions/sond
 library(dplyr)
 library(lubridate)
 library(ggplot2)
-sond_929 <- read.csv("Exo_Harbor_Data_9-29-2020.csv", head = TRUE)# , skip = 1) 
-sond_929 # we have a couple empty rows here at the start of the file
-# num_rows <- nrow(df) #
-# df_skiprows <- df[3:num_rows,]
+sonde9_29_22 <- read.csv("Exo_Harbor_Data_9-29-2020.csv", head = TRUE , skip = 1) 
+sonde1_27_23 <- read.csv("Exo_Harbor_Data_1-27-2023.csv", head = TRUE)# , skip = 1) 
+head(sonde9_29_22) # lets look at it!
+# head(sonde1_27_23) # lets look at it!
+num_rows_92922    <- nrow(sonde9_29_22) #
+sonde1_27_23_skip <- sonde9_29_22[3:num_rows_92922,]
+
+
+
+head(sonde1_27_23_skip)
+sonde1_27_23_skip$Exo_TempC <- as.numeric(sonde1_27_23_skip$Exo_TempC)
+
+
 ```
+
+```{r}
+Sonde_Merge <- merge(sonde1_27_23_skip, sonde9_29_22)
+Sonde_Merge
+```
+
+
+
 
 ```{r}
 
