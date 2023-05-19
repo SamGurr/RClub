@@ -26,7 +26,7 @@
 | 4/28/2023   |       open                                  |      <add here>    |
 | 5/05/2023   |       open                                  |      <add here>    |
 | 5/12/2023   |       open                                  |      <add here>    |
-| 5/19/2023   |       open                                  |      <add here>    |
+| 5/19/2023   |       open - we chatted on Openscapes.org   |    [openscapes - tutorial for open sciences](https://openscapes.github.io/series/core-lessons/)    |
 | 5/26/2023   |       open                                  |      <add here>    |
 | 6/02/2023   |     Pivot tables in excel                   |      <add here>    |
 | 6/09/2023   |                <add here>                   |      <add here>    |
