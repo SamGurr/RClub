@@ -18,17 +18,17 @@
 | 3/03/2023   |       Let's git' it started (workshop)      |   [20230303_time_to_git_started.md](https://github.com/SamGurr/RClub/blob/main/sessions/3_3_2023_Git_workshop/20230303_time_to_git_started.md)    |
 | 3/10/2023   | Let's plot some data w/ R and Quarto/Markdown and practice using git |   [20230303_time_to_git_started.md](https://github.com/SamGurr/RClub/blob/main/sessions/3_3_2023_Git_workshop/20230303_time_to_git_started.md); [Quarto_tutorial](https://quarto.org/docs/tools/rstudio.html); [Schedule](https://docs.google.com/document/d/1rIQIAo8KMlhF1Zw4H24NxqVUP3jxRBB9deLHJMbyGP0/edit?pli=1) |
 | 3/17/2023   |       Breakout groups / Troubleshooting and questions           |      [2-factor authentication for pushing to secure account in github](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) [ChatGPT](https://chat.openai.com/)    |
-| 3/24/2023   |                <add here>                   |      <add here>    |
-| 3/31/2023   |                <add here>                   |      <add here>    |
-| 4/07/2023   |                <add here>                   |      <add here>    |
-| 4/14/2023   |                <add here>                   |      <add here>    |
-| 4/21/2023   |                <add here>                   |      <add here>    |
-| 4/28/2023   |                <add here>                   |      <add here>    |
-| 5/05/2023   |                <add here>                   |      <add here>    |
-| 5/12/2023   |                <add here>                   |      <add here>    |
-| 5/19/2023   |                <add here>                   |      <add here>    |
-| 5/26/2023   |                <add here>                   |      <add here>    |
-| 6/02/2023   |                <add here>                   |      <add here>    |
+| 3/24/2023   |       open                                  |      <add here>    |
+| 3/31/2023   |       open                                  |      <add here>    |
+| 4/07/2023   |       open                                  |      <add here>    |
+| 4/14/2023   |       open                                  |      <add here>    |
+| 4/21/2023   |       open                                  |      <add here>    |
+| 4/28/2023   |       open                                  |      <add here>    |
+| 5/05/2023   |       open                                  |      <add here>    |
+| 5/12/2023   |       open                                  |      <add here>    |
+| 5/19/2023   |       open                                  |      <add here>    |
+| 5/26/2023   |       open                                  |      <add here>    |
+| 6/02/2023   |     Pivot tables in excel                   |      <add here>    |
 | 6/09/2023   |                <add here>                   |      <add here>    |
 | 6/16/2023   |                <add here>                   |      <add here>    |
 | 6/23/2023   |                <add here>                   |      <add here>    |
