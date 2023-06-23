@@ -1,0 +1,112 @@
+---
+title: "20230714_If_else_RClub"
+author: "Samuel Gurr"
+date: "2023-06-22"
+output: html_document
+---
+
+# If / Else Workshop
+
+OBJECTIVE:
+
+-   use conditional statements to manipulate large datasets, converting values based on binary criteria
+
+    -   a custom tutorial is provided to become familiar with if else statments!
+
+    -   several questions for group work
+
+-   in summary, if else statments represent a simple yet powerful tool that demistifies the 'ones and zeros' of coding. If you can logically reach your desired outcome from a series of boolean values (binary as true and false), you can do anything!
+
+### Load Libraries
+
+-   NOTE: as opposed to running the whole chunk, position your cursor on each line and use Cnrtl+Enter to run line by line. if you get a warning message that you do not have the package, use install.package() command
+
+```{r startup, include=FALSE}
+
+```
+
+### Using a mock dataset 'ToothGrowth'
+
+ToothGrowth data set contains the result from an experiment studying the effect of vitamin C on tooth growth in 60 Guinea pigs. Each animal received one of three dose levels of vitamin C (0.5, 1, and 2 mg/day) by one of two delivery methods, (orange juice or ascorbic acid (a form of vitamin C and coded as VC).
+
+```{r load data}
+data() # take a look! these are all mock datasets in base R! 
+
+head(ToothGrowth) # first size lines of the dataset we will use
+
+colnames(ToothGrowth) # view the column names len supp and dose
+
+ToothGrowth$supp  # string categorical variable  - these are vitamin C 'VC' and orange juice 'OJ'
+ToothGrowth$len   # continues variable  - the length of Guinea pig teeth
+ToothGrowth$dose  # numeric categorical variable   - the level of supplement 
+```
+
+### Before getting started..
+
+Lets assign DF_tooth as our working version of ToothGrowth in our exercises
+
+```{r}
+DF_tooth <- ToothGrowth
+```
+
+### Conditional statements
+
+About: if else statements following a boolean logic, meaning a series of binary true and false outcomes. They are are coded in R as the following:
+
+**if** ( statement here ) {
+
+outcome if true
+
+} **else** { outcome if false }
+
+```{r}
+
+x = 1.1 # change me and run again below! 
+
+if (x < 1) { # if x is < than 1...
+  
+  print('x is less than 1') # print this message if TRUE 
+  
+} else { # else means here than x is actually greater than one
+  
+  print('x is greater than 1') # print this message if FALSE 
+  
+}
+
+```
+
+```{r}
+
+
+if (DF_tooth$len > 20) { # if x is < than 1...
+  
+  DF_tooth$note <- "Wowza, huge teeth!"  # print this message if TRUE
+  
+} else { # else means here than x is actually greater than one
+  
+  DF_tooth$note <- "regular unsuprisingly-sized teeth.."  # print this message if FALSE 
+  
+}
+
+
+DF_tooth$note  <- ifelse(DF_tooth$len > 20, "Wowza, huge chompers!",  "regular unsuprisingly-sized teeth.." )
+View(DF_tooth)
+```
+
+```{r}
+
+
+DF_tooth$len <- ifelse(df$team == 'A', 'great', 'bad')
+
+
+```
+
+```{r}
+
+```
+
+(1) Turns out they feed the Guinea pigs orange juice with extra pulp! Therfore the tooth measurements were overestimated by 10%
+
+```{r}
+
+```
