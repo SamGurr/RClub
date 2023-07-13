@@ -1,11 +1,13 @@
 ---
 title: "20230714_If_else_RClub"
 author: "Samuel Gurr"
-date: "2023-06-22"
+date: "2023-07-14"
 output: html_document
 ---
 
 # If / Else Workshop
+
+## Click 'Visual' at the top of this window for the formatted experience 
 
 'if else' statements are a simple yet powerful tool that can demystify the 'ones and zeros' of coding. If you can logically reach your desired outcome from a series of true and false statement, you can do anything!
 
@@ -167,20 +169,15 @@ if (x < 1 ) { # if x is lass than 1
 
 ### Activity: Sunday scaries (ooooo!)
 
-#### *Imagine* it is mid-July and the weather has been beautiful and warm. You had an amazing weekend and you don't want it to end. 
+#### *Imagine* it is mid-July and the weather has been beautiful and warm. You had an amazing weekend and you don't want it to end.
 
-#### "...oh ..hmm that *muuust* be next week ..oh no!" 
+#### "...oh ..hmm that *muuust* be next week ..oh no!"
 
-#### A jolt of shivers runs up your spine, it is after 5 pm on Sunday already! You just remembered you are leading a meeting tomorrow morning!  
+#### A jolt of shivers runs up your spine, it is after 5 pm on Sunday already! You just remembered you are leading a meeting tomorrow morning!
 
 -   Objective: edit the time and preparedness to receive the output `blame it on the kids and stay home tomorrow`
-
-```{=html}
-<!-- -->
-```
--   Use an `if` and `'else'` conditional statement with operators to solve!
-
--   a chunk is started below, fill it and try!
+-   Understand the `if`, `else, and else if` conditional statement with operators to solve!
+-   a chunk is created below, fill the variables and learn your destiny
 
 ```{r sunday scaries, include=TRUE}
 #  install.packages('lubridate') # if you do not have it already
@@ -190,7 +187,7 @@ library(lubridate) # converts the hour and minutes you input into an integer,
 # assign your variables
 day    =  # hmm.. what day is it?
 
-time   =   as.numeric(hm('00:00')) # input military time, curently midnight 'hm' lubridate
+time   =  as.numeric(hm('00:00')) # input military time, curently midnight 'hm' lubridate
 
 ready  =   # add whether you are ready as 'yes' or 'no' o include  the quptes as a string
 
@@ -211,7 +208,7 @@ if (day != 'Sunday' & ready == 'no') { # the pseudosunday scaries
   
 } else if (day == 'Sunday' & ready == 'no' & time < as.numeric(hm('17:00'))) {
   
-  print('Palms sweaty, eyes twitching - become awkwardly quiet and stiff. You make your wide-eyed goodbyes to your friends as you inch closer to the exit. You will finish the task if your life depends on it.')
+  print('Palms sweaty, eyes twitching - become awkwardly quiet and stiff. You scramble to finish your wide-eyed goodbyes to your friends as you inch closer to the exit. The computer calls our to you, finish the task if your life depends on it.')
   
 } else { 
   
