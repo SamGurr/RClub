@@ -34,7 +34,7 @@
 | 6/23/2023   |               summer break                  |      <add here>    |
 | 6/30/2023   |               summer break                  |      <add here>    |
 | 7/07/2023   |               summer break                  |      <add here>    |
-| 7/14/2023   |               Conditioning statements       |   [In class R markdown tutorial](https://github.com/SamGurr/RClub/blob/main/sessions/7_14_2023_If_Else/20230714_If_Else_RClub.Rmd)     |
+| 7/14/2023   |               Conditioning statements       |   [R markdown tutorial](https://github.com/SamGurr/RClub/blob/main/sessions/7_14_2023_If_Else/20230714_If_Else_RClub.Rmd)     |
 | 7/21/2023   |               For Loops                     |      <add here>    |
 | 7/28/2023   |                <add here>                   |      <add here>    |
 | 8/04/2023   |                <add here>                   |      <add here>    |
