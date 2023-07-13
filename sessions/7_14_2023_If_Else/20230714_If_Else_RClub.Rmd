@@ -7,7 +7,7 @@ output: html_document
 
 # If / Else Workshop
 
-## Click 'Visual' at the top of this window for the formatted experience 
+## Click 'Visual' at the top of this window for the formatted experience
 
 'if else' statements are a simple yet powerful tool that can demystify the 'ones and zeros' of coding. If you can logically reach your desired outcome from a series of true and false statement, you can do anything!
 
@@ -26,8 +26,6 @@ output: html_document
     -   `&` = AND (element wise)
 
     -   `|` = OR (element wise)
-
-    -   note: element wise meaning the operators performs the if you double up for && and //
 
 ## Intro to boolean variables
 
@@ -111,23 +109,9 @@ if (x < 1 | x == 1) { # add  the OR statement!
 
 ```
 
-```{r help yourself with AND, some more!, include=TRUE}
-
-x = 1 
-
-if (x < 1 & x != 1) { # add & for x not equal to 1
-  
-  print('x is less than 1') # added more information for this output
-  
-} else { # else means here than x is  greater than one
-  
-  print('x is greater than or equal to 1') # print this message if FALSE 
-}
-```
-
 option 2: using `&` or AND statement
 
-```{r help yourself with AND, some more!, include=TRUE}
+```{r help yourself with AND, include=TRUE}
 
 x = 1 
 
