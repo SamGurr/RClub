@@ -29,13 +29,13 @@
 | 5/19/2023   |       open - we chatted on Openscapes.org  and googlesheets4  |    [openscapes - tutorial for open sciences](https://openscapes.github.io/series/core-lessons/) [googlesheet4 - R package tutorial](https://github.com/rstudio/cheatsheets/blob/main/data-import.pdf)   |
 | 5/26/2023   |       open                                  |      <add here>    |
 | 6/02/2023   |     Pivot tables in excel                   |      <add here>    |
-| 6/09/2023   |                <add here>                   |      <add here>    |
-| 6/16/2023   |                <add here>                   |      <add here>    |
-| 6/23/2023   |                <add here>                   |      <add here>    |
-| 6/30/2023   |                <add here>                   |      <add here>    |
-| 7/07/2023   |                <add here>                   |      <add here>    |
-| 7/14/2023   |                <add here>                   |      <add here>    |
-| 7/21/2023   |                <add here>                   |      <add here>    |
+| 6/09/2023   |               summer break                  |      <add here>    |
+| 6/16/2023   |               summer break                  |      <add here>    |
+| 6/23/2023   |               summer break                  |      <add here>    |
+| 6/30/2023   |               summer break                  |      <add here>    |
+| 7/07/2023   |               summer break                  |      <add here>    |
+| 7/14/2023   |               Conditioning statements       |   [In class R markdown tutorial](https://github.com/SamGurr/RClub/blob/main/sessions/7_14_2023_If_Else/20230714_If_Else_RClub.Rmd)     |
+| 7/21/2023   |               For Loops                     |      <add here>    |
 | 7/28/2023   |                <add here>                   |      <add here>    |
 | 8/04/2023   |                <add here>                   |      <add here>    |
 | 8/11/2023   |                <add here>                   |      <add here>    |
