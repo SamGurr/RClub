@@ -175,7 +175,7 @@ if (x < 1 ) { # if x is lass than 1
 
 #### A jolt of shivers runs up your spine, it is after 5 pm on Sunday already! You just remembered you are leading a meeting tomorrow morning!
 
--   Objective: edit the time and preparedness to receive the output `blame it on the kids and stay home tomorrow`
+-   Objective: edit the time and your preparedness to receive the output `blame it on the kids and stay home tomorrow`
 -   Understand the `if`, `else, and else if` conditional statement with operators to solve!
 -   a chunk is created below, fill the variables and learn your destiny
 
