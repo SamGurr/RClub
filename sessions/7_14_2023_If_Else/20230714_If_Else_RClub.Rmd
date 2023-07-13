@@ -1,0 +1,222 @@
+---
+title: "20230714_If_else_RClub"
+author: "Samuel Gurr"
+date: "2023-06-22"
+output: html_document
+---
+
+# If / Else Workshop
+
+'if else' statements are a simple yet powerful tool that can demystify the 'ones and zeros' of coding. If you can logically reach your desired outcome from a series of true and false statement, you can do anything!
+
+**OBJECTIVE:**
+
+-   use conditional statements to control large data sets, converting values based on conditional criteria
+
+    -   a custom tutorial is provided to become familiar with if else statements!
+
+    -   a few questions for group work
+
+-   familiarize ourselves with common logical operators
+
+    -   `!` = NOT
+
+    -   `&` = AND (element wise)
+
+    -   `|` = OR (element wise)
+
+    -   note: element wise meaning the operators performs the if you double up for && and //
+
+## Intro to boolean variables
+
+-   boolean (computing definition) - a binary variable or outcome as 'true' or 'false'
+
+**Conditional statements -** if else statements following a boolean logic, meaning a series of binary true and false outcomes. They are are coded in R as the following:
+
+**if** ( statement here ) {
+
+outcome if true
+
+} **else** { outcome if false }
+
+**Let's give it a go shall we!**
+
+-   run line by line to understand the boolean logic (true and false)
+
+-   change x to receive the opposite outcome
+
+```{r intro to boolean, include=TRUE}
+
+x = 1.1 # change me and run again below! 
+
+if (x < 1) { # if x is < than 1...
+  
+  print('x is less than 1') # print this message if TRUE 
+  
+} else { # else means here than x is  greater than one
+  
+  print('x is greater than 1') # print this message if FALSE 
+  
+}
+
+```
+
+## Operating on if else with Operators
+
+Problem: We have a conditional statement based on a threshold that is a likely outcome.
+
+X=1 is the metaphorical wrench that will break our if else machine!
+
+-   run the code below
+
+```{r throw the wrench, some more!, include=TRUE}
+
+x = 1 # the wrench
+
+# our machine
+if (x < 1) { # if x is < than 1…    
+  
+  print('x is less than 1') # print this message if TRUE    
+  
+} else { # else means here than x is  greater than one    
+  
+    print('x is greater than 1') # print this message if FALSE  
+  
+  }
+
+```
+
+-   "x is greater than 1" but... but... this is FALSE! ("oh no!")
+
+    -   the `if` statement asks if x is less than 1 -- it was not, it simply ran the remaining `else` output
+
+### Use operators to save us from doom
+
+option 1: using `|` for OR statement
+
+```{r help yourself with OR, some more!, include=TRUE}
+
+x = 1 # the value that throws the metaforical wrench on our code 
+
+if (x < 1 | x == 1) { # add  the OR statement!
+  
+  print('x is less than or equal to 1') # change your output to inform yourself
+  
+} else { # else means here than x is  greater than one
+  
+  print('x is greater than 1') # print this message if FALSE 
+}
+
+```
+
+```{r help yourself with AND, some more!, include=TRUE}
+
+x = 1 
+
+if (x < 1 & x != 1) { # add & for x not equal to 1
+  
+  print('x is less than 1') # added more information for this output
+  
+} else { # else means here than x is  greater than one
+  
+  print('x is greater than or equal to 1') # print this message if FALSE 
+}
+```
+
+option 2: using `&` or AND statement
+
+```{r help yourself with AND, some more!, include=TRUE}
+
+x = 1 
+
+if (x < 1 & x != 1) { # add & for x not equal to 1
+  
+  print('x is less than 1') # added more information for this output
+  
+} else { # else means here than x is  greater than one
+  
+  print('x is greater than or equal to 1') # print this message if FALSE 
+}
+```
+
+#### What if you want to add another statement? use `else if`
+
+`else if` - if your first `if` statement is false, `else if` provides another opportunity before defaulting to the `else` output
+
+-   note you can have as many `else if` statements that you's like - just remember to keep organized and logical
+
+option 3: add `else if`
+
+```{r else... if..?, some more!, include=TRUE}
+x = 1   
+
+if (x < 1 ) { # if x is lass than 1      
+  
+  print('x is less than 1') # output if TRUE 
+
+} else if (x == 1) {
+  
+  print('x is equal to 1, wrench removed - your machine lives')
+  
+} else { # else means here than x is  greater than one     
+    
+  print('x is greater than or equal to 1') # print this message if FALSE  
+  
+  }
+```
+
+### Activity: Sunday scaries (ooooo!)
+
+#### *Imagine* it is mid-July and the weather has been beautiful and warm. You had an amazing weekend and you don't want it to end. 
+
+#### "...oh ..hmm that *muuust* be next week ..oh no!" 
+
+#### A jolt of shivers runs up your spine, it is after 5 pm on Sunday already! You just remembered you are leading a meeting tomorrow morning!  
+
+-   Objective: edit the time and preparedness to receive the output `blame it on the kids and stay home tomorrow`
+
+```{=html}
+<!-- -->
+```
+-   Use an `if` and `'else'` conditional statement with operators to solve!
+
+-   a chunk is started below, fill it and try!
+
+```{r sunday scaries, include=TRUE}
+#  install.packages('lubridate') # if you do not have it already
+library(lubridate) # converts the hour and minutes you input into an integer, 
+
+
+# assign your variables
+day    =  # hmm.. what day is it?
+
+time   =   as.numeric(hm('00:00')) # input military time, curently midnight 'hm' lubridate
+
+ready  =   # add whether you are ready as 'yes' or 'no' o include  the quptes as a string
+
+
+# run the conditional statement and learn your destiny 
+
+if (day != 'Sunday' & ready == 'no') { # the pseudosunday scaries 
+  
+  print('Phew! Blissfully procrastinate more') 
+  
+} else if (day == 'Sunday' & ready != 'no' & time < as.numeric(hm('17:00'))) { # almost forgot that you are awesome
+  
+  print('Oh yeah - you prepared last week! You are a badass, enjoy your time in the sun.')
+  
+} else if (day == 'Sunday' & ready != 'no' & time > as.numeric(hm('17:00'))) {
+  
+  print('Popcorn time')
+  
+} else if (day == 'Sunday' & ready == 'no' & time < as.numeric(hm('17:00'))) {
+  
+  print('Palms sweaty, eyes twitching - become awkwardly quiet and stiff. You make your wide-eyed goodbyes to your friends as you inch closer to the exit. You will finish the task if your life depends on it.')
+  
+} else { 
+  
+  print('Just blame it on the kids and stay home tomorrow') # print this message if FALSE 
+}
+```
+
+### 
