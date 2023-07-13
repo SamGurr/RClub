@@ -151,7 +151,7 @@ if (x < 1 ) { # if x is lass than 1
   }
 ```
 
-### Activity: Sunday scaries (ooooo!)
+### Activity 1: The Sunday scaries (ooooo!)
 
 #### *Imagine* it is mid-July and the weather has been beautiful and warm. You had an amazing weekend and you don't want it to end.
 
@@ -159,7 +159,7 @@ if (x < 1 ) { # if x is lass than 1
 
 #### A jolt of shivers runs down your spine, it is after 5 pm on Sunday already! You just remembered you are leading a meeting tomorrow morning!
 
--   Objective: edit the time and your preparedness to receive the output `blame it on the kids and stay home tomorrow`
+-   Objective: edit the time and your preparedness to receive the output `just blame it on the kids and stay home tomorrow`
 -   Understand the `if`, `else, and else if` conditional statement with operators to solve!
 -   a chunk is created below, fill the variables and learn your destiny
 
@@ -200,4 +200,52 @@ if (day != 'Sunday' & ready == 'no') { # the pseudosunday scaries
 }
 ```
 
-### 
+### Activity 2: Life's obstacles
+
+#### *Imagine* you're on the way to work, it's Monday - time to show that meeting what you got!
+
+#### The speed limit to work is 25 mph the whole way, if you don't speed you will be late... you *caaan't* be late *again!*
+
+#### Careful! You need to navigate your speed, the weather, and your caffeine intake (or lack thereof) to avoid getting into an accident, a speeding ticket, or worse!
+
+-   Objective: fit the story! use operators to edit each `if`, `else, and else if` conditional statement
+
+-   a chunk is *started* below
+
+```{r lifes obstacles, include=TRUE}
+
+#  install.packages('lubridate') # if you do not have it already
+library(lubridate) # converts the hour and minutes you input into an integer 
+
+
+# assign your variables
+weather     =   # rain or shine, you choose
+
+speed_mph   =   # is your foot made of feather or lead?
+
+coffee      =   # yes or no; decaf or regular; your choose
+
+
+# what will it be you coding coder you?
+
+if ()  { # you're a caffeinated getaway driver navigating a sunny day in the burbs like a bandit
+  
+  print('Made it safe and sound, 15 minutes early!') 
+  
+} else if () { # caffeinated or not, its pouring cats and dogs so you follow the man's rules
+  
+  print('Made it safe and sound, but late. Luckily, everyone was late becasue of the sudden storm.') 
+  
+} else if () { # left home like an uncaffeinated bat out of hell!
+  
+  print('Lets hope your liscence and registration is in the glove compartment!')
+  
+} else if () { # speeding in the rain, you hydroplaned and missed your meeting ..some say you're still spinning   
+  
+  print('Woweeeee!')
+  
+} else {  # the weather and caffeine withdrawal spell the perfect storm to turn this car around!
+  
+  print('Turn around and take the meeting from zoom') 
+}
+```
