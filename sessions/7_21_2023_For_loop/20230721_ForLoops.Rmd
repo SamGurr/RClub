@@ -212,6 +212,8 @@ View(DF_tooth)
 
 ## Example #2 (plot loop): *Flower power*
 
+Looping through data columns is an efficient method to plot large data sets, especially if you have custom plotting code! Below is a simple example outputing plots.
+
 -   `for` to open your for loop
 
 -   `()` set your identifier and call collection of objects
@@ -221,7 +223,9 @@ View(DF_tooth)
 -   `{}` - inserted below is an `ggplot` `geom_boxplot` for each column with numeric data
 
 ```{r plotting flower, error = FALSE}
+
 library(ggplot2) # load the library
+
 # install.packages('ggplot2') # of you do not have the package above, remove the hashtag and Cnrtl+Enter to run this line tp install
 
 iris # take a look at the dataset! 
@@ -246,8 +250,61 @@ for (i in 1:(ncol(iris)-1)) { # open for loop, for i equal to 1 - 4
     
     print(plot)
     
-    
 } # close  for loop
 
+# clock below to see the four unique boxplots!
+```
+
+-   Note: as opposed to `print()` we could use the unique identifier 'loop_measurement_name' to name and output pdfs or jpegs onto your computer!
+
+## Activity! *For, if, else, case_when, Oh My!*
+
+**About**: Tackle the puzzle below using (1) raw base R syntax using `for` with `if` and `else` conditional statements and (2) the dplyr alternative
+
+A greenhouse experiment was originally planned to breed hybrid strains from each of the three iris species. However, the off-brand fertilizer you used caused each species to grow a trait unknown to iris ..ologists!! Paying homage to the man-eating plant from Little Shop of Horrors, you name this discovery `Audrey_III`.
+
+The allometric relationship of `Audrey_III.Length` with Pedal.Length is different for each species
+
+-   setosa - `Audrey_III.Length`= Pedal.Length\^2.4
+
+-   versicolor: `Audrey_III.Length`= Pedal.Length\^4.0
+
+-   virginica: `Audrey_III.Length`= Pedal.Length\^3.0
+
+**Objective**: create a new column `Audrey_III.Length` based on the relationships with Pedal.Length for each iris species
+
+```{r for loop}
+
+for () { # open for loop
+  
+  
+      if () {        # condition
+        
+                     # if TRUE 
+        
+        
+      ) else if () { # next condition
+        
+                     # if TRUE for else if only
+        
+      } else {  
+        
+                     # if FALSE for all conditions 
+        
+      } # end if statment
+  
+  
+} # close  for loop
+
+View(iris) # look at the data!
+```
+
+```{r case_when}
+?case_when
+
+iris$Audrey_III.Length_NOloop <- # use case_when to take it!
+  
+
+View(iris) # when you finish, compare your Audrey_III results
 
 ```
